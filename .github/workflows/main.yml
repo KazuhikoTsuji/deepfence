@@ -18,7 +18,7 @@ jobs:
     env:
       GROUP: kazuhikotsuji
       COMMIT: ${{ github.sha }}
-      REPO: Deepfence
+      REPO: deepfence
       DEEPFENCE_CONSOLE_IP: 34.71.242.83
     steps:
     - uses: actions/checkout@v2
